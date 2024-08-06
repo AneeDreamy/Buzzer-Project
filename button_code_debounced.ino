@@ -1,6 +1,5 @@
 #include <SoftwareSerial.h>
 #define BUTTON_PIN1 5  // Define the pin connected to the button
-#define BUTTON_PIN2 9  // Define the second pin connected to the button
 SoftwareSerial mySerial(2,4); //RX,TX -- -DONT CHANGE THIS or it doesn't work
 SoftwareSerial mySerial2(7,6); //RX,TX -- -DONT CHANGE THIS or it doesn't work
 
